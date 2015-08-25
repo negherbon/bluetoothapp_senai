@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pareados" />
+    
+    <ListView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/pairedDevices"></ListView>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descobertos" />
+    
+    <ListView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/devicesDiscoverable"></ListView>
+    
+    <Button 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Buscar dispositivos"
+        android:id="@+id/scanDevices"/>
+    
+    <Button 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Mandar mensagem"
+        android:id="@+id/sendMessage"/>
+
+</LinearLayout>
